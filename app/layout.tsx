@@ -58,27 +58,7 @@ export default function RootLayout({
         <meta name="theme-color" content="#ffffff" />
       </head>
       <GoogleAnalytics gaId="G-84Z171LN4N" />
-      <body className="min-h-screen bg-background font-sans antialiased">
-        <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
-          <NextTopLoader
-            color="#2299DD"
-            initialPosition={0.08}
-            crawlSpeed={200}
-            height={3}
-            crawl={true}
-            showSpinner={true}
-            easing="ease"
-            speed={200}
-            shadow="0 0 10px #2299DD,0 0 5px #2299DD"
-          />
-          <SiteHeader />
-          <div className="relative flex min-h-screen flex-col">
-            <div className="flex-1">{children}</div>
-          </div>
-          <Footer />
-          <TailwindIndicator />
-        </ThemeProvider>
-      </body>
+ 
     </html>
   );
 }
