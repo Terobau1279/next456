@@ -30,7 +30,7 @@ export default async function Home() {
             </p>
             <div className="flex gap-2">
               <Button >
-                <Link href={`/movie`}>Watch Now/Link>
+                <Link href={`/movie`}>Watch Now</Link>
               </Button>
               <Link href={`/changelog`}>
                 <Button variant="outline">Changelog</Button>
